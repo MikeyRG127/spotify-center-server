@@ -49,8 +49,8 @@ export default (req, res) => {
         console.log(`🚀 ~ { access_token, refresh_token, expires_in }:`, { access_token, refresh_token, expires_in })
 
         // build your front‑end URL with tokens in query or hash
-        const reactAppUrl = 'https://localhost:4200/';
-        // const reactAppUrl = 'https://portal.panelspcontrol.online/';
+        //const reactAppUrl = 'https://localhost:4200/';
+        const reactAppUrl = 'https://portal.panelspcontrol.online/';
         const params = new URLSearchParams({
             access_token,
             refresh_token,
